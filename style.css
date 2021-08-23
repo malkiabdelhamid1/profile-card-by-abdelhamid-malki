@@ -1,0 +1,196 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #19A1AD;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   overflow: hidden;
+   padding: 0px;
+   margin: 0px;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 1;
+}
+#bg-img1,#bg-img2{
+    position: relative;
+    width: fit-content;
+    height: auto;
+
+}
+#bg-img1{
+    z-index: 1;
+    top: -600px;
+    transform: rotate(180deg);
+    display: block;
+    /*float: left;*/
+    right: 220px;
+    
+}
+#bg-img2{
+    z-index: 1;
+    float: right;
+    display: block;
+    top: -600px;
+    left: 250px;
+    /*transform: rotate(5deg);*/
+}
+#pc{
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-color: white;
+    top: 10%;
+    z-index: 4;
+    left: auto;
+    border-radius: 15px;
+}
+#bg-card{
+    width: 100.2%;
+    height: 200px;
+    position: relative;
+    z-index: 5;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#victor{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 4px white;
+    border-radius: 50%;
+    top: -65px;
+
+    z-index: 6;
+}
+#name-age{
+    margin: 0px;
+    top: -60px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    
+}
+#name{
+    font-family:Helvetica, sans-serif;
+    display: inline-block;
+}
+#age{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(47, 47, 47, 0.671);
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 4px;
+}
+#London{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    color: rgba(47, 47, 47, 0.671);
+    font-size: 20px;
+    margin:0 auto;
+    position: relative;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    position: relative;
+    top: -35px;
+}
+#info{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    top: -30px;
+    padding-right: 10%;
+}
+ul{
+    display:inline-block;
+    width: fit-content;
+    height: fit-content;}
+li{
+    list-style-type: none;
+
+}
+#num{
+    font-size: 27px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+#num-of{
+    font-size: 20px;
+    color: rgba(46, 45, 45, 0.904); 
+    font-family: Helvetica, sans-serif;
+
+}
+@media(max-width:500px){
+    #pc{
+        width: 90%;
+    }
+    #num{
+        font-size: 23px;
+    }
+    #num-of{
+        font-size: 18px;
+    }
+}
+@media(max-width:800px) and (min-width:501px){
+    #pc{
+        width: 60%;
+        margin-top: 10%;
+    }
+    #num{
+        font-size: 23px;
+    }
+    #num-of{
+        font-size: 18px;
+    }
+}
+@media(max-width:1050px) and (min-width:801px){
+    #pc{
+        width: 60%;
+        margin-top: 20%;
+    }
+    #num{
+        font-size: 40px;
+    }
+    #num-of{
+        font-size: 30px;
+    }
+    #bg-card{
+        height: fit-content;
+
+    }
+    #victor{
+        width: 30%;
+        top: -90px;
+    }
+    #London{
+        font-size: 30px;
+    }
+    #name{
+        font-size: 40px;
+    }
+    #age{
+        font-size: 30px;
+
+    }
+}
